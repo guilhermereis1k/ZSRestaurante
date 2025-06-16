@@ -1,0 +1,32 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/bg-home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+
+.home__titulo {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  color: #f8c471;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.home__texto {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
