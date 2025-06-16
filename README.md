@@ -7,8 +7,8 @@ Aplicação completa com backend em SpringBoot, autenticação com Node.js e fro
 
 ### 1. Clone o repositório
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone [https://github.com/guilhermereis1k/ZSRestaurante](https://github.com/guilhermereis1k/ZSRestaurante)
+cd ZSRestaurante
 
 ### 2. Instale as dependências
    
