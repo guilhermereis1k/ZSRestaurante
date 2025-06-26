@@ -3,7 +3,7 @@
 Aplicação completa com backend em SpringBoot, autenticação com Node.js e frontend em React.
 
 
-## 🚀 Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Clone o repositório
 
@@ -73,7 +73,7 @@ cd ZSRestaurante
 
 # Backend
 
-### 🛠️ Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot
@@ -84,7 +84,7 @@ cd ZSRestaurante
 
 ---
 
-### ✅ Funcionalidades Principais
+### Funcionalidades Principais
 
 - Autenticação de usuário via JWT
 - Criação de pedidos vinculados a um usuário autenticado
@@ -95,7 +95,7 @@ cd ZSRestaurante
 
 ---
 
-### 📌 Endpoints Disponíveis
+### Endpoints Disponíveis
 
 | Método | Rota                     | Descrição                                       |
 |--------|--------------------------|-------------------------------------------------|
@@ -106,3 +106,17 @@ cd ZSRestaurante
 | DELETE | `/pedido/{pedidoId}`     | Deleta um pedido por ID                        |
 
 **Todos os endpoints (exceto GET por ID) requerem o header:**
+
+ ---
+ 
+# Backend Authenticator
+
+### Tecnologias Utilizadas
+
+- Node.js
+- Express
+- MongoDB + Mongoose
+- JWT (autenticação)
+- Joi (validação)
+
+OBS.: Restante da documentação de autenticação em um README.md dentro do diretório /auth.
